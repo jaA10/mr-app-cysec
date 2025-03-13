@@ -1,3 +1,5 @@
+import { initializeIcons } from '@fluentui/react';
+initializeIcons('https://res.cdn.office.net/files/fabric-cdn-prod_20240129.001/assets/icons/');
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { HashRouter, Route, Routes } from 'react-router-dom'
