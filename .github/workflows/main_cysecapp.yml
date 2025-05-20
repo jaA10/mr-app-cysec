@@ -68,4 +68,4 @@ jobs:
         with:
           app-name: 'CySecApp'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2DE798A68D434478A0B8CB162AADF1A1 }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
